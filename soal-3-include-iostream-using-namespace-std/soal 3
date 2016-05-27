@@ -1,0 +1,23 @@
+#include <iostream>
+
+
+using namespace std;
+
+// deklarasi
+void main()
+
+{
+	int sisi, luas, keliling;
+
+
+	cout << "masukan panjang sisi persegi= ";
+	cin >> sisi;
+	
+	luas = sisi*sisi;
+	keliling = 4 * sisi;
+
+	cout << "luas persegi = " << luas << endl;
+	cout << "keliling persegi = " << keliling << endl;
+
+	system("pause");
+}
