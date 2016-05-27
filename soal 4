@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int bil_a, bil_b, tambah, kurang, kali, bagi;
+
+void pertambahan()
+{
+	tambah = bil_a+bil_b;
+	cout << "jumlah pertambahan = " << tambah << endl;
+}
+
+void perkurangan()
+{
+	kurang = bil_a-bil_b;
+	cout << "jumlah pengurangan = " << kurang << endl;
+}
+
+void perkalian()
+{
+	kali = bil_a*bil_b;
+	cout << "jumlah perkalian = " << kali << endl;
+}
+
+void pembagian()
+{
+	bagi = bil_a / bil_b;
+	cout << "jumlah pembagian = " << bagi << endl;
+}
+
+int main()
+{
+	cout << "masukan bilangan a = " << endl;
+	cin >> bil_a;
+	cout << "masukan bilangan b = "<<endl;
+	cin >> bil_b;
+	pertambahan();
+	perkurangan();
+	perkalian();
+	pembagian();
+	
+
+	system("pause");
+}
