@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int hasil;
+
+int tambahsatu(int x)
+{
+	int hasil;
+	hasil = x + 1;
+	return hasil;
+}
+int main()
+{
+	int bilangan, hasil;
+	cout << "masukan sebuah bilangan bulat = " << endl;
+	cin >> bilangan;
+	hasil = tambahsatu(bilangan);
+	cout << "nilai akhir = " << hasil;
+}
+
+int tambah(int x, int y)
+{
+	int penjumlahan;
+	penjumlahan = x + y;
+	return penjumlahan;
+}
+
+int main()
+{
+	int bil1, bil2, hasil;
+	cout << "masukan bil 1= ";
+	cin >> bil1;
+	cout << "masukan bil2= ";
+	cin >> bil2;
+	hasil = tambah(bil1, bil2);
+	cout << hasil;
+
+	system("pause");
+}
