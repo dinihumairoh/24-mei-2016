@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int luas, sisi, keliling;
+
+void luaspersegi()
+{
+	luas = sisi*sisi;
+		cout << "luas persegi = " << luas << endl;
+}
+
+void kelilingpersegi()
+{
+	keliling = 4 * sisi;
+		cout << "keliling persegi = " << keliling << endl;
+}
+
+int main()
+{
+	cout << "masukan nilai sisi = ";
+	cin >> sisi;
+	luaspersegi();
+	kelilingpersegi();
+
+	system("pause");
+}
